@@ -6,7 +6,7 @@
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
+
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="">
         
@@ -130,25 +130,299 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+                
+                <div class="about__container container grid">
+                    <svg class="about__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask1" mask-type="alpha">
+                            <path d="M43.6,-77.2C56.3,-68.2,66.2,-56.1,74.2,-42.7C82.2,-29.3,88.3,-14.7,89.6,0.7C90.8,16.1,87.3,32.2,
+                            79.1,45.4C71,58.5,58.2,68.7,44.3,75.4C30.3,82.1,15.2,85.5,0.1,85.4C-15.1,85.2,-30.1,81.7,-43.2,74.5C-56.3,
+                            67.3,-67.5,56.3,-76.1,43.3C-84.6,30.3,-90.6,15.1,-91.2,-0.3C-91.8,-15.8,-87,-31.6,-78.2,-44.3C-69.4,-56.9,
+                            -56.6,-66.4,-42.9,-74.8C-29.2,-83.2,-14.6,-90.5,0.4,-91.2C15.5,-91.9,30.9,-86.1,43.6,-77.2Z"
+                            transform="translate(100 100)"/>
+                        </mask>
+                        <g mask="url(#mask1)">
+                            <path d="M43.6,-77.2C56.3,-68.2,66.2,-56.1,74.2,-42.7C82.2,-29.3,88.3,-14.7,89.6,0.7C90.8,16.1,87.3,32.2,
+                            79.1,45.4C71,58.5,58.2,68.7,44.3,75.4C30.3,82.1,15.2,85.5,0.1,85.4C-15.1,85.2,-30.1,81.7,-43.2,74.5C-56.3,
+                            67.3,-67.5,56.3,-76.1,43.3C-84.6,30.3,-90.6,15.1,-91.2,-0.3C-91.8,-15.8,-87,-31.6,-78.2,-44.3C-69.4,-56.9,
+                            -56.6,-66.4,-42.9,-74.8C-29.2,-83.2,-14.6,-90.5,0.4,-91.2C15.5,-91.9,30.9,-86.1,43.6,-77.2Z"
+                            transform="translate(100 100)"/>
+                            <image class="about__blob-img" x='16' y='8' href="assets/img/about_me.png"/>
+                        </g>
+                    </svg> 
 
-        
+                    <div class="about__data">
+                        <p class="about__description">4-year HSE student working in Samokat and ...</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">1+</span>
+                                <span class="about__info-name">Year <br> experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title1">Top 15%</span>
+                                <span class="about__info-name">Minimum in <br> each competition</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">5</span>
+                                <span class="about__info-name">Completed <br> projects</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/resume_ru.pdf" class="button button-flex">
+                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
 
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-analytics skills__icon"></i>
 
+                                <div>
+                                    <h1 class="skills__title">Data analyst</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Pandas</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pandas"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titlse">
+                                        <h3 class="skills__name">Numpy</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__numpy"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Matplolib</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__matplotlib"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Scikit-learn</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sklearn"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Keras</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sklearn"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-java-script skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Programming languages</h1>
+                                    <span class="skills__subtitle">2+ years experience</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__r"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sql"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
 
+                <div class="qualifiction__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
 
+                        <div class="qualification__button button--flex" data-target='#work'>
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Economics and Mathematics</h3>
+                                    <span class="qualification__subtitle">Tashkent - University of World Economy and Diplomacy</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2015 - 2018
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Economics</h3>
+                                    <span class="qualification__subtitle">Saint-Petersburg - Higher School of Economics</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2018 - now
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data analytics</h3>
+                                    <span class="qualification__subtitle">Saint-Petersburg - Gazprom-Neft</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2021 - now
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data Scientist</h3>
+                                    <span class="qualification__subtitle">Samokat - Saint-Petersburg</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2021 - now
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Coming soon...</h3>
+                                    <span class="qualification__subtitle"></span>
+                                    <div class="qualification__calendar">
+                                        <!-- <i class="uil uil-schedule"></i> -->
+                                        <!-- 2022 - now -->
+                                    </div>
+                                </div>                                
+                            </div>     
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                
 
             </section>
 
