@@ -618,12 +618,17 @@ img{
     font-weight: var(--font-medium);
 }
 
-.competitions__button{
+.competitions__button,
+.competitions__button1{
     cursor: pointer;
     font-size: var(--small-font-size);
 }
 
 .competitions__button:hover .button__icon{
+    transform: translateX(.25rem);
+}
+
+.competitions__button1:hover .button__icon{
     transform: translateX(.25rem);
 }
 
