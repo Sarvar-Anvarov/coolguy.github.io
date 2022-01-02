@@ -68,8 +68,28 @@ tabs.forEach(tab => {
     })
 })
 
-/*==================== SERVICES MODAL ====================*/
+/*==================== COMPETITIONS MODAL ====================*/
+const modalViews = document.querySelectorAll('.competitions__modal'),
+      modalBtns = document.querySelectorAll('.competitions__button'),
+      modalCloses = document.querySelectorAll('.competitions__modal-close')
 
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtn, i) =>{
+    modalBtn.addEventListener('click', () =>{
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose, i) =>{
+    modalClose.addEventListener('click', () =>{
+        modalViews.forEach((modalView) =>{
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
