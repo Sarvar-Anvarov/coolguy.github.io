@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 239; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -698,8 +698,70 @@ img{
 }
 
 /*==================== PROJECTS ====================*/
+.projects__container{
+    overflow: initial;
+}
 
+.projects__content{
+    padding: 0 1.5rem;
+}
 
+.projects__img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-content: center;
+}
+
+.projects__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.projects__description{
+    margin-bottom: var(--mb-0-75);
+}
+
+.projects__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects__button:hover .button__icon{
+    transform: translateX(.25rem);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    content: '';
+}
+
+.swiper-projects-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.swiper-button-prev{
+    left: -.5rem;
+}
+
+.swiper-button-next{
+    right: -.5rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets{
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+    outline: none; 
+}
 /*==================== PROJECT IN MIND ====================*/
 
 
