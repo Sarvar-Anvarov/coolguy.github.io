@@ -384,6 +384,9 @@ img{
     color: var(--first-color-alt);
 }
 
+.send__button{
+    columns: #FFF;
+}
 /*==================== ABOUT ====================*/
 .about__blob{
     width: 200px;
