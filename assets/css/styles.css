@@ -613,13 +613,13 @@ img{
 }
 
 .competitions__title{
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     /* margin-bottom: var(--mb-1); */
     font-weight: var(--font-medium);
 }
 
 .competitions__subtitle{
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
     /* margin-bottom: var(--mb-1); */
     /* font-weight: var(--font-medium); */
 }
@@ -627,7 +627,7 @@ img{
 .competitions__button,
 .competitions__button1{
     cursor: pointer;
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
 }
 
 .competitions__button:hover .button__icon{
