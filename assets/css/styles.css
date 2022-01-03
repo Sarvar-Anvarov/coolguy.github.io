@@ -821,7 +821,7 @@ img{
 
 .footer__bg{
     background-color: var(--first-color-second);
-    padding: 2rem 0 3rem;
+    padding: 2rem 0 1.5rem;
 }
 
 .footer__title{
@@ -836,7 +836,7 @@ img{
 .footer__links{
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
+    row-gap: .5rem;
 }
 
 .footer__link:hover{
@@ -855,14 +855,15 @@ img{
 .footer__title,
 .footer__subtitle,
 .footer__social,
-.footer__link{
+.footer__link,
+.footer__copy{
     color: #FFF;
 }
 
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    /* color: var(--text-color-light); */
     margin-top: var(--mb-3);
 }
 
